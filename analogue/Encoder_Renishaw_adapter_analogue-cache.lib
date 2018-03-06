@@ -1,0 +1,372 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Encoder_Renishaw_adapter_analogue-rescue:ESD_Protection_TPD8F003-RESCUE-Encoder_Renishaw_adapter_analogue
+#
+DEF Encoder_Renishaw_adapter_analogue-rescue:ESD_Protection_TPD8F003-RESCUE-Encoder_Renishaw_adapter_analogue U 0 1 Y Y 1 F N
+F0 "U" -600 650 50 H V L CNN
+F1 "Encoder_Renishaw_adapter_analogue-rescue:ESD_Protection_TPD8F003-RESCUE-Encoder_Renishaw_adapter_analogue" -600 550 50 H V L CNN
+F2 "TO_SOT_Packages_SMD:WSON-16_3.3x1.35_Pitch0.4mm" 1100 550 50 H I C CNN
+F3 "" -400 600 50 H I C CNN
+$FPLIST
+ WSON*3.3x1.35mm*Pitch0.4mm*
+$ENDFPLIST
+DRAW
+C -290 100 14 0 1 0 F
+C -290 200 14 0 1 0 F
+C -290 300 14 0 1 0 F
+C -185 400 14 0 1 0 F
+C -85 255 14 0 1 0 F
+C -85 400 14 0 1 0 F
+C 0 250 14 0 1 0 F
+C 90 250 14 0 1 0 F
+C 90 400 14 0 1 0 F
+C 190 400 14 0 1 0 F
+S -600 500 600 -500 0 1 10 f
+S -35 415 40 390 0 1 0 F
+P 2 0 1 0 -210 350 -210 340 N
+P 2 0 1 0 -185 400 -340 400 N
+P 2 0 1 0 -160 350 -210 350 N
+P 2 0 1 0 -160 350 -160 360 N
+P 2 0 1 0 -85 250 -85 300 N
+P 2 0 1 0 -85 300 -85 310 N
+P 2 0 1 0 -85 325 -85 400 N
+P 2 0 1 0 -60 310 -110 310 N
+P 2 0 1 0 -60 325 -110 325 N
+P 2 0 1 0 0 250 0 -340 N
+P 2 0 1 0 65 310 115 310 N
+P 2 0 1 0 65 325 115 325 N
+P 2 0 1 0 90 250 90 300 N
+P 2 0 1 0 90 300 90 310 N
+P 2 0 1 0 90 325 90 400 N
+P 2 0 1 0 165 350 165 360 N
+P 2 0 1 0 165 350 215 350 N
+P 2 0 1 0 190 400 280 400 N
+P 2 0 1 0 215 350 215 340 N
+P 3 0 1 0 -35 400 -185 400 -185 350 N
+P 3 0 1 0 40 400 190 400 190 350 N
+P 4 0 1 0 -160 300 -210 300 -185 350 -160 300 F
+P 4 0 1 0 165 300 215 300 190 350 165 300 F
+P 5 0 1 0 -185 300 -185 275 -185 250 190 250 190 300 N
+X Ch1_In 1 -800 400 200 R 50 50 1 1 P
+X Ch7_Out 10 800 -200 200 L 50 50 1 1 P
+X Ch6_Out 11 800 -100 200 L 50 50 1 1 P
+X Ch5_Out 12 800 0 200 L 50 50 1 1 P
+X Ch4_Out 13 800 100 200 L 50 50 1 1 P
+X Ch3_Out 14 800 200 200 L 50 50 1 1 P
+X Ch2_Out 15 800 300 200 L 50 50 1 1 P
+X Ch1_Out 16 800 400 200 L 50 50 1 1 P
+X GND 17 0 -700 200 U 50 50 1 1 W
+X Ch2_In 2 -800 300 200 R 50 50 1 1 P
+X Ch3_In 3 -800 200 200 R 50 50 1 1 P
+X Ch4_In 4 -800 100 200 R 50 50 1 1 P
+X Ch5_In 5 -800 0 200 R 50 50 1 1 P
+X Ch6_In 6 -800 -100 200 R 50 50 1 1 P
+X Ch7_In 7 -800 -200 200 R 50 50 1 1 P
+X Ch8_In 8 -800 -300 200 R 50 50 1 1 P
+X Ch8_Out 9 800 -300 200 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Encoder_Renishaw_adapter_analogue-rescue:WolfDrive_encoder_renishaw_adapter-rescue_CONN_01X06-RESCUE-WolfDrive_encoder_renishaw_adapter-RESCUE-Encoder_Renishaw_adapter_analogue
+#
+DEF Encoder_Renishaw_adapter_analogue-rescue:WolfDrive_encoder_renishaw_adapter-rescue_CONN_01X06-RESCUE-WolfDrive_encoder_renishaw_adapter-RESCUE-Encoder_Renishaw_adapter_analogue P 0 40 Y N 1 F N
+F0 "P" 0 350 50 H V C CNN
+F1 "Encoder_Renishaw_adapter_analogue-rescue:WolfDrive_encoder_renishaw_adapter-rescue_CONN_01X06-RESCUE-WolfDrive_encoder_renishaw_adapter-RESCUE-Encoder_Renishaw_adapter_analogue" 100 0 50 V V C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+$FPLIST
+ Pin_Header_Straight_1X06
+ Pin_Header_Angled_1X06
+ Socket_Strip_Straight_1X06
+ Socket_Strip_Angled_1X06
+$ENDFPLIST
+DRAW
+S -50 -245 10 -255 0 1 0 N
+S -50 -145 10 -155 0 1 0 N
+S -50 -45 10 -55 0 1 0 N
+S -50 55 10 45 0 1 0 N
+S -50 155 10 145 0 1 0 N
+S -50 255 10 245 0 1 0 N
+S -50 300 50 -300 0 1 0 N
+X P1 1 -200 250 150 R 50 50 1 1 P
+X P2 2 -200 150 150 R 50 50 1 1 P
+X P3 3 -200 50 150 R 50 50 1 1 P
+X P4 4 -200 -50 150 R 50 50 1 1 P
+X P5 5 -200 -150 150 R 50 50 1 1 P
+X P6 6 -200 -250 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Encoder_Renishaw_adapter_analogue-rescue:conn_Conn_01x10_Female-RESCUE-Encoder_Renishaw_adapter_analogue
+#
+DEF Encoder_Renishaw_adapter_analogue-rescue:conn_Conn_01x10_Female-RESCUE-Encoder_Renishaw_adapter_analogue J 0 40 Y N 1 F N
+F0 "J" 0 500 50 H V C CNN
+F1 "Encoder_Renishaw_adapter_analogue-rescue:conn_Conn_01x10_Female-RESCUE-Encoder_Renishaw_adapter_analogue" 0 -600 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_??x*mm*
+ Connector*:*1x??x*mm*
+ Socket?Strip?Straight?1X*
+ Socket?Strip?Angled?1X*
+$ENDFPLIST
+DRAW
+A 0 -500 20 901 -901 1 1 6 N 0 -480 0 -520
+A 0 -400 20 901 -901 1 1 6 N 0 -380 0 -420
+A 0 -300 20 901 -901 1 1 6 N 0 -280 0 -320
+A 0 -200 20 901 -901 1 1 6 N 0 -180 0 -220
+A 0 -100 20 901 -901 1 1 6 N 0 -80 0 -120
+A 0 0 20 901 -901 1 1 6 N 0 20 0 -20
+A 0 100 20 901 -901 1 1 6 N 0 120 0 80
+A 0 200 20 901 -901 1 1 6 N 0 220 0 180
+A 0 300 20 901 -901 1 1 6 N 0 320 0 280
+A 0 400 20 901 -901 1 1 6 N 0 420 0 380
+P 2 1 1 6 -50 -500 -20 -500 N
+P 2 1 1 6 -50 -400 -20 -400 N
+P 2 1 1 6 -50 -300 -20 -300 N
+P 2 1 1 6 -50 -200 -20 -200 N
+P 2 1 1 6 -50 -100 -20 -100 N
+P 2 1 1 6 -50 0 -20 0 N
+P 2 1 1 6 -50 100 -20 100 N
+P 2 1 1 6 -50 200 -20 200 N
+P 2 1 1 6 -50 300 -20 300 N
+P 2 1 1 6 -50 400 -20 400 N
+X Pin_1 1 -200 400 150 R 50 50 1 1 P
+X Pin_10 10 -200 -500 150 R 50 50 1 1 P
+X Pin_2 2 -200 300 150 R 50 50 1 1 P
+X Pin_3 3 -200 200 150 R 50 50 1 1 P
+X Pin_4 4 -200 100 150 R 50 50 1 1 P
+X Pin_5 5 -200 0 150 R 50 50 1 1 P
+X Pin_6 6 -200 -100 150 R 50 50 1 1 P
+X Pin_7 7 -200 -200 150 R 50 50 1 1 P
+X Pin_8 8 -200 -300 150 R 50 50 1 1 P
+X Pin_9 9 -200 -400 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Encoder_Renishaw_adapter_analogue-rescue:device_C_Small-RESCUE-Encoder_Renishaw_adapter_analogue
+#
+DEF Encoder_Renishaw_adapter_analogue-rescue:device_C_Small-RESCUE-Encoder_Renishaw_adapter_analogue C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "Encoder_Renishaw_adapter_analogue-rescue:device_C_Small-RESCUE-Encoder_Renishaw_adapter_analogue" 10 -80 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Encoder_Renishaw_adapter_analogue-rescue:device_D_TVS-RESCUE-Encoder_Renishaw_adapter_analogue
+#
+DEF Encoder_Renishaw_adapter_analogue-rescue:device_D_TVS-RESCUE-Encoder_Renishaw_adapter_analogue D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "Encoder_Renishaw_adapter_analogue-rescue:device_D_TVS-RESCUE-Encoder_Renishaw_adapter_analogue" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ TO-???*
+ *SingleDiode
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 50 0 -50 0 N
+P 4 0 1 8 -100 -50 0 0 -100 50 -100 -50 N
+P 4 0 1 8 20 50 0 50 0 -50 -20 -50 N
+P 4 0 1 8 100 50 100 -50 0 0 100 50 N
+X A1 1 -150 0 100 R 50 50 1 1 P
+X A2 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Encoder_Renishaw_adapter_analogue-rescue:mechanical_Mounting_Hole_PAD-RESCUE-Encoder_Renishaw_adapter_analogue
+#
+DEF Encoder_Renishaw_adapter_analogue-rescue:mechanical_Mounting_Hole_PAD-RESCUE-Encoder_Renishaw_adapter_analogue MK 0 40 N N 1 F N
+F0 "MK" 0 250 50 H V C CNN
+F1 "Encoder_Renishaw_adapter_analogue-rescue:mechanical_Mounting_Hole_PAD-RESCUE-Encoder_Renishaw_adapter_analogue" 0 175 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Mounting?Hole*
+ Hole*
+$ENDFPLIST
+DRAW
+C 0 50 50 0 1 50 N
+X 1 1 0 -100 100 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Encoder_Renishaw_adapter_analogue-rescue:power_+3.3V-RESCUE-Encoder_Renishaw_adapter_analogue
+#
+DEF Encoder_Renishaw_adapter_analogue-rescue:power_+3.3V-RESCUE-Encoder_Renishaw_adapter_analogue #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "Encoder_Renishaw_adapter_analogue-rescue:power_+3.3V-RESCUE-Encoder_Renishaw_adapter_analogue" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +3V3 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# Encoder_Renishaw_adapter_analogue-rescue:power_+5V-RESCUE-Encoder_Renishaw_adapter_analogue
+#
+DEF Encoder_Renishaw_adapter_analogue-rescue:power_+5V-RESCUE-Encoder_Renishaw_adapter_analogue #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "Encoder_Renishaw_adapter_analogue-rescue:power_+5V-RESCUE-Encoder_Renishaw_adapter_analogue" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +5V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# Encoder_Renishaw_adapter_analogue-rescue:power_GND-RESCUE-Encoder_Renishaw_adapter_analogue
+#
+DEF Encoder_Renishaw_adapter_analogue-rescue:power_GND-RESCUE-Encoder_Renishaw_adapter_analogue #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "Encoder_Renishaw_adapter_analogue-rescue:power_GND-RESCUE-Encoder_Renishaw_adapter_analogue" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# Encoder_Renishaw_adapter_analogue-rescue:regul_AP131-33-RESCUE-Encoder_Renishaw_adapter_analogue
+#
+DEF Encoder_Renishaw_adapter_analogue-rescue:regul_AP131-33-RESCUE-Encoder_Renishaw_adapter_analogue U 0 10 Y Y 1 F N
+F0 "U" -150 225 50 H V C CNN
+F1 "Encoder_Renishaw_adapter_analogue-rescue:regul_AP131-33-RESCUE-Encoder_Renishaw_adapter_analogue" 0 225 50 H V L CNN
+F2 "TO_SOT_Packages_SMD:SOT-23-5" 0 325 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ SOT?23*
+$ENDFPLIST
+DRAW
+S -200 175 200 -200 0 1 10 f
+X IN 1 -300 100 100 R 50 50 1 1 W
+X GND 2 0 -300 100 U 50 50 1 1 W
+X EN 3 -300 0 100 R 50 50 1 1 I
+X BP 4 300 0 100 L 50 50 1 1 I
+X OUT 5 300 100 100 L 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
+# adc-dac:MAX5139
+#
+DEF adc-dac:MAX5139 U 0 40 Y Y 1 F N
+F0 "U" 350 675 50 H V L CNN
+F1 "adc-dac:MAX5139" 350 600 50 H V L CNN
+F2 "Housings_DFN_QFN:QFN-16-1EP_3x3mm_Pitch0.5mm" 350 500 50 H I L CIN
+F3 "" 350 400 50 H I L CNN
+ALIAS MAX5138
+$FPLIST
+ *QFN*3x3mm*Pitch0.5mm*
+$ENDFPLIST
+DRAW
+S -300 700 300 -700 0 1 10 f
+X NC 1 400 -400 100 L 50 50 1 1 N N
+X ~READY 10 -400 -400 100 R 50 50 1 1 O
+X DVDD 11 -100 800 100 D 50 50 1 1 W
+X OUT 12 400 300 100 L 50 50 1 1 O
+X AVDD 13 100 800 100 D 50 50 1 1 W
+X REFI 14 400 -100 100 L 50 50 1 1 I
+X REFO 15 400 0 100 L 50 50 1 1 O
+X AGND 16 -100 -800 100 U 50 50 1 1 W
+X M/~Z 2 -400 300 100 R 50 50 1 1 I
+X ~LDAC 3 -400 200 100 R 50 50 1 1 I
+X NC 4 400 -300 100 L 50 50 1 1 N N
+X SCLK 5 -400 0 100 R 50 50 1 1 I
+X ~CS 6 -400 -200 100 R 50 50 1 1 I
+X DIN 7 -400 -100 100 R 50 50 1 1 I
+X AGND 8 100 -800 100 U 50 50 1 1 W
+X NC 9 400 -200 100 L 50 50 1 1 N N
+ENDDRAW
+ENDDEF
+#
+# device:C
+#
+DEF device:C C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "device:C" 25 -100 50 H V L CNN
+F2 "" 38 -150 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# device:R
+#
+DEF device:R R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "device:R" 0 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# linear:OPA2340
+#
+DEF linear:OPA2340 U 0 20 Y Y 2 F N
+F0 "U" 0 200 50 H V L CNN
+F1 "linear:OPA2340" 0 -200 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+ALIAS LM358 AD8620 LMC6062 LMC6082 TL062 TL072 TL082 NE5532 SA5532 RC4558 RC4560 RC4580 LMV358 TS912 TSV912IDT TSV912IST TLC272 TLC277 MCP602 OPA2134 OPA2340 OPA2376xxD OPA2376xxDGK MC33078 MC33178 LM4562 OP249 OP275 ADA4075-2 MCP6002-xP MCP6002-xSN MCP6002-xMS LM7332 OPA2333xxD OPA2333xxDGK LMC6482 LT1492 LTC6081xMS8 LM6172 MCP6L92 NJM2043 NJM2114 NJM4556A NJM4558 NJM4559 NJM4560 NJM4580 NJM5532 ADA4807-2ARM OPA2691
+$FPLIST
+ SOIC*3.9x4.9mm*Pitch1.27mm*
+ DIP*W7.62mm*
+ TO*99*
+ OnSemi*Micro8*
+ TSSOP*3x3mm*Pitch0.65mm*
+ TSSOP*4.4x3mm*Pitch0.65mm*
+ MSOP*3x3mm*Pitch0.65mm*
+ SSOP*3.9x4.9mm*Pitch0.635mm*
+ LFCSP*2x2mm*Pitch0.5mm*
+ *SIP*
+ SOIC*5.3x6.2mm*Pitch1.27mm*
+$ENDFPLIST
+DRAW
+P 4 0 1 10 -200 200 200 0 -200 -200 -200 200 f
+X V- 4 -100 -300 150 U 50 50 0 1 W
+X V+ 8 -100 300 150 D 50 50 0 1 W
+X ~ 1 300 0 100 L 50 50 1 1 O
+X - 2 -300 -100 100 R 50 50 1 1 I
+X + 3 -300 100 100 R 50 50 1 1 I
+X + 5 -300 100 100 R 50 50 2 1 I
+X - 6 -300 -100 100 R 50 50 2 1 I
+X ~ 7 300 0 100 L 50 50 2 1 O
+ENDDRAW
+ENDDEF
+#
+#End Library

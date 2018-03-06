@@ -1,0 +1,590 @@
+EESchema Schematic File Version 4
+LIBS:Encoder_Renishaw_adapter_analogue-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Encoder_Renishaw_adapter_analogue-rescue:WolfDrive_encoder_renishaw_adapter-rescue_CONN_01X06-RESCUE-WolfDrive_encoder_renishaw_adapter-RESCUE-Encoder_Renishaw_adapter_analogue CN?
+U 1 1 5A982519
+P 6050 1975
+F 0 "CN?" H 6050 2325 50  0000 C CNN
+F 1 "SPI/BiSS" V 6150 1975 50  0000 C CNN
+F 2 "DriveParts:Amphenol_FCC_HFW6R-1STE9LF" H 6050 1975 50  0001 C CNN
+F 3 "" H 6050 1975 50  0000 C CNN
+	1    6050 1975
+	1    0    0    1   
+$EndComp
+$Comp
+L Encoder_Renishaw_adapter_analogue-rescue:power_+5V-RESCUE-Encoder_Renishaw_adapter_analogue #PWR?
+U 1 1 5A98251A
+P 5800 1675
+F 0 "#PWR?" H 5800 1525 50  0001 C CNN
+F 1 "+5V" H 5800 1815 50  0000 C CNN
+F 2 "" H 5800 1675 50  0000 C CNN
+F 3 "" H 5800 1675 50  0000 C CNN
+	1    5800 1675
+	1    0    0    -1  
+$EndComp
+$Comp
+L Encoder_Renishaw_adapter_analogue-rescue:power_GND-RESCUE-Encoder_Renishaw_adapter_analogue #PWR?
+U 1 1 5A98251B
+P 5800 2275
+F 0 "#PWR?" H 5800 2025 50  0001 C CNN
+F 1 "GND" H 5800 2125 50  0000 C CNN
+F 2 "" H 5800 2275 50  0000 C CNN
+F 3 "" H 5800 2275 50  0000 C CNN
+	1    5800 2275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 1725 5800 1725
+Wire Wire Line
+	5800 1725 5800 1675
+Wire Wire Line
+	5850 2225 5800 2225
+Wire Wire Line
+	5800 2225 5800 2275
+Text Label 5850 1825 2    60   ~ 0
+Status
+Text Label 5850 1925 2    60   ~ 0
+MISO/SLO
+Text Label 5850 2025 2    60   ~ 0
+SCK/MA
+Text Label 5850 2125 2    60   ~ 0
+~CS
+$Comp
+L Encoder_Renishaw_adapter_analogue-rescue:power_+5V-RESCUE-Encoder_Renishaw_adapter_analogue #PWR?
+U 1 1 5A98251C
+P 7375 1825
+F 0 "#PWR?" H 7375 1675 50  0001 C CNN
+F 1 "+5V" H 7375 1965 50  0000 C CNN
+F 2 "" H 7375 1825 50  0000 C CNN
+F 3 "" H 7375 1825 50  0000 C CNN
+	1    7375 1825
+	1    0    0    -1  
+$EndComp
+$Comp
+L Encoder_Renishaw_adapter_analogue-rescue:power_GND-RESCUE-Encoder_Renishaw_adapter_analogue #PWR?
+U 1 1 5A98251D
+P 7375 2225
+F 0 "#PWR?" H 7375 1975 50  0001 C CNN
+F 1 "GND" H 7375 2075 50  0000 C CNN
+F 2 "" H 7375 2225 50  0000 C CNN
+F 3 "" H 7375 2225 50  0000 C CNN
+	1    7375 2225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7375 1825 7375 1875
+Wire Wire Line
+	7375 2175 7375 2225
+$Comp
+L Encoder_Renishaw_adapter_analogue-rescue:power_+5V-RESCUE-Encoder_Renishaw_adapter_analogue #PWR?
+U 1 1 5A982520
+P 3175 1475
+F 0 "#PWR?" H 3175 1325 50  0001 C CNN
+F 1 "+5V" H 3175 1615 50  0000 C CNN
+F 2 "" H 3175 1475 50  0000 C CNN
+F 3 "" H 3175 1475 50  0000 C CNN
+	1    3175 1475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Encoder_Renishaw_adapter_analogue-rescue:regul_AP131-33-RESCUE-Encoder_Renishaw_adapter_analogue U?
+U 1 1 5A982521
+P 3575 1625
+F 0 "U?" H 3575 1967 50  0000 C CNN
+F 1 "AP131-33" H 3575 1876 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23-5" H 3575 1950 50  0001 C CNN
+F 3 "http://www.diodes.com/_files/datasheets/AP131.pdf" H 3575 1625 50  0001 C CNN
+F 4 "1825307" H 3575 1625 50  0001 C CNN "OrderCode"
+	1    3575 1625
+	1    0    0    -1  
+$EndComp
+$Comp
+L Encoder_Renishaw_adapter_analogue-rescue:device_C_Small-RESCUE-Encoder_Renishaw_adapter_analogue C?
+U 1 1 5A982522
+P 4175 1775
+F 0 "C?" H 4185 1845 50  0000 L CNN
+F 1 "10u" H 4185 1695 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 4175 1775 50  0001 C CNN
+F 3 "" H 4175 1775 50  0000 C CNN
+	1    4175 1775
+	1    0    0    -1  
+$EndComp
+$Comp
+L Encoder_Renishaw_adapter_analogue-rescue:device_C_Small-RESCUE-Encoder_Renishaw_adapter_analogue C?
+U 1 1 5A982523
+P 3925 1775
+F 0 "C?" H 3935 1845 50  0000 L CNN
+F 1 "100n" H 3935 1695 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 3925 1775 50  0001 C CNN
+F 3 "" H 3925 1775 50  0000 C CNN
+	1    3925 1775
+	1    0    0    -1  
+$EndComp
+$Comp
+L Encoder_Renishaw_adapter_analogue-rescue:device_C_Small-RESCUE-Encoder_Renishaw_adapter_analogue C?
+U 1 1 5A982524
+P 3175 1775
+F 0 "C?" H 3185 1845 50  0000 L CNN
+F 1 "1u" H 3185 1695 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 3175 1775 50  0001 C CNN
+F 3 "" H 3175 1775 50  0000 C CNN
+	1    3175 1775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3175 1625 3275 1625
+Wire Wire Line
+	3175 1475 3175 1525
+Wire Wire Line
+	3175 1525 3275 1525
+Connection ~ 3175 1625
+Wire Wire Line
+	3875 1625 3925 1625
+Wire Wire Line
+	3925 1625 3925 1675
+Wire Wire Line
+	4175 1475 4175 1525
+Wire Wire Line
+	4175 1525 3875 1525
+Wire Wire Line
+	4175 1975 4175 1875
+Wire Wire Line
+	3175 1975 3575 1975
+Wire Wire Line
+	3575 1975 3575 1925
+Wire Wire Line
+	3175 1875 3175 1975
+Connection ~ 3575 1975
+Wire Wire Line
+	3925 1975 3925 1875
+Connection ~ 3925 1975
+Connection ~ 3175 1525
+$Comp
+L Encoder_Renishaw_adapter_analogue-rescue:power_GND-RESCUE-Encoder_Renishaw_adapter_analogue #PWR?
+U 1 1 5A982525
+P 3175 2025
+F 0 "#PWR?" H 3175 1775 50  0001 C CNN
+F 1 "GND" H 3175 1875 50  0000 C CNN
+F 2 "" H 3175 2025 50  0000 C CNN
+F 3 "" H 3175 2025 50  0000 C CNN
+	1    3175 2025
+	1    0    0    -1  
+$EndComp
+Connection ~ 3175 1975
+$Comp
+L Encoder_Renishaw_adapter_analogue-rescue:power_+3.3V-RESCUE-Encoder_Renishaw_adapter_analogue #PWR?
+U 1 1 5A982526
+P 4175 1475
+F 0 "#PWR?" H 4175 1325 50  0001 C CNN
+F 1 "+3.3V" H 4190 1648 50  0000 C CNN
+F 2 "" H 4175 1475 50  0001 C CNN
+F 3 "" H 4175 1475 50  0001 C CNN
+	1    4175 1475
+	1    0    0    -1  
+$EndComp
+Connection ~ 4175 1525
+$Comp
+L Encoder_Renishaw_adapter_analogue-rescue:conn_Conn_01x10_Female-RESCUE-Encoder_Renishaw_adapter_analogue CN?
+U 1 1 5A982531
+P 9925 5275
+F 0 "CN?" H 9818 4550 50  0000 C CNN
+F 1 "Conn_01x10_Female" H 9818 4641 50  0000 C CNN
+F 2 "Connectors_JST:JST_SH_SM10B-SRSS-TB_10x1.00mm_Angled" H 9925 5275 50  0001 C CNN
+F 3 "~" H 9925 5275 50  0001 C CNN
+	1    9925 5275
+	1    0    0    1   
+$EndComp
+Text Label 7500 5375 2    50   ~ 0
+MISO/SLO-
+Text Label 7500 5475 2    50   ~ 0
+MISO/SLO+
+Text Label 7500 5575 2    50   ~ 0
+Status+
+Text Label 7500 5675 2    50   ~ 0
+Status-
+Text Label 7500 5275 2    60   ~ 0
+SCK/MA-
+Text Label 7500 5175 2    60   ~ 0
+SCK/MA+
+Text Label 7500 5075 2    60   ~ 0
+~CS+
+Text Label 7500 4975 2    60   ~ 0
+~CS-
+$Comp
+L Encoder_Renishaw_adapter_analogue-rescue:power_GND-RESCUE-Encoder_Renishaw_adapter_analogue #PWR?
+U 1 1 5A982532
+P 9725 4775
+F 0 "#PWR?" H 9725 4525 50  0001 C CNN
+F 1 "GND" H 9725 4625 50  0000 C CNN
+F 2 "" H 9725 4775 50  0000 C CNN
+F 3 "" H 9725 4775 50  0000 C CNN
+	1    9725 4775
+	0    1    1    0   
+$EndComp
+$Comp
+L Encoder_Renishaw_adapter_analogue-rescue:device_D_TVS-RESCUE-Encoder_Renishaw_adapter_analogue D?
+U 1 1 5A982533
+P 7375 2025
+F 0 "D?" V 7329 1947 50  0000 R CNN
+F 1 "D_TVS" V 7420 1947 50  0000 R CNN
+F 2 "Diodes_SMD:D_SMA" H 7375 2025 50  0001 C CNN
+F 3 "https://en.wikipedia.org/wiki/Transient-voltage-suppression_diode" H 7375 2025 50  0001 C CNN
+	1    7375 2025
+	0    1    1    0   
+$EndComp
+$Comp
+L Encoder_Renishaw_adapter_analogue-rescue:power_+5V-RESCUE-Encoder_Renishaw_adapter_analogue #PWR?
+U 1 1 5A982534
+P 9725 4875
+F 0 "#PWR?" H 9725 4725 50  0001 C CNN
+F 1 "+5V" H 9725 5015 50  0000 C CNN
+F 2 "" H 9725 4875 50  0000 C CNN
+F 3 "" H 9725 4875 50  0000 C CNN
+	1    9725 4875
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Encoder_Renishaw_adapter_analogue-rescue:mechanical_Mounting_Hole_PAD-RESCUE-Encoder_Renishaw_adapter_analogue MK?
+U 1 1 5A982535
+P 8450 2100
+F 0 "MK?" V 8404 2250 50  0000 L CNN
+F 1 "Mounting_Hole_PAD" V 8495 2250 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_2.2mm_M2_Pad_Via" H 8450 2100 50  0001 C CNN
+F 3 "" H 8450 2100 50  0001 C CNN
+	1    8450 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L Encoder_Renishaw_adapter_analogue-rescue:device_C_Small-RESCUE-Encoder_Renishaw_adapter_analogue C?
+U 1 1 5A982536
+P 8250 2100
+F 0 "C?" H 8260 2170 50  0000 L CNN
+F 1 "DNP" H 8260 2020 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 8250 2100 50  0001 C CNN
+F 3 "" H 8250 2100 50  0000 C CNN
+	1    8250 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L Encoder_Renishaw_adapter_analogue-rescue:power_GND-RESCUE-Encoder_Renishaw_adapter_analogue #PWR?
+U 1 1 5A982537
+P 8150 2100
+F 0 "#PWR?" H 8150 1850 50  0001 C CNN
+F 1 "GND" H 8150 1950 50  0000 C CNN
+F 2 "" H 8150 2100 50  0000 C CNN
+F 3 "" H 8150 2100 50  0000 C CNN
+	1    8150 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L Encoder_Renishaw_adapter_analogue-rescue:ESD_Protection_TPD8F003-RESCUE-Encoder_Renishaw_adapter_analogue U?
+U 1 1 5A982538
+P 8300 5375
+F 0 "U?" H 8300 6042 50  0000 C CNN
+F 1 "TPD8F003" H 8300 5951 50  0000 C CNN
+F 2 "Housings_SON:WSON-16_3.3x1.35_Pitch0.4mm" H 9400 5925 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tpd6f003.pdf" H 7900 5975 50  0001 C CNN
+	1    8300 5375
+	1    0    0    -1  
+$EndComp
+$Comp
+L Encoder_Renishaw_adapter_analogue-rescue:power_GND-RESCUE-Encoder_Renishaw_adapter_analogue #PWR?
+U 1 1 5A982539
+P 8300 6075
+F 0 "#PWR?" H 8300 5825 50  0001 C CNN
+F 1 "GND" H 8300 5925 50  0000 C CNN
+F 2 "" H 8300 6075 50  0000 C CNN
+F 3 "" H 8300 6075 50  0000 C CNN
+	1    8300 6075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9725 4975 9100 4975
+Wire Wire Line
+	9100 5075 9725 5075
+Wire Wire Line
+	9725 5175 9100 5175
+Wire Wire Line
+	9100 5275 9725 5275
+Wire Wire Line
+	9725 5375 9100 5375
+Wire Wire Line
+	9100 5475 9725 5475
+Wire Wire Line
+	9725 5575 9100 5575
+Wire Wire Line
+	9100 5675 9725 5675
+Text Label 9525 4975 2    60   ~ 0
+~cn_CS-
+Text Label 9525 5175 2    60   ~ 0
+cn_SCK/MA+
+Text Label 9525 5275 2    60   ~ 0
+cn_SCK/MA-
+Text Label 9525 5375 2    50   ~ 0
+cn_MISO/SLO-
+Text Label 9525 5475 2    50   ~ 0
+cn_MISO/SLO+
+Text Label 9525 5575 2    50   ~ 0
+cn_Status+
+Text Label 9525 5675 2    50   ~ 0
+cn_Status-
+Text Label 9525 5075 2    60   ~ 0
+~cn_CS+
+$Comp
+L Encoder_Renishaw_adapter_analogue-rescue:mechanical_Mounting_Hole_PAD-RESCUE-Encoder_Renishaw_adapter_analogue MK?
+U 1 1 5A98253A
+P 8450 1850
+F 0 "MK?" V 8404 2000 50  0000 L CNN
+F 1 "Mounting_Hole_PAD" V 8495 2000 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_2.2mm_M2_Pad" H 8450 1850 50  0001 C CNN
+F 3 "" H 8450 1850 50  0001 C CNN
+	1    8450 1850
+	0    1    1    0   
+$EndComp
+$Comp
+L Encoder_Renishaw_adapter_analogue-rescue:mechanical_Mounting_Hole_PAD-RESCUE-Encoder_Renishaw_adapter_analogue MK?
+U 1 1 5A98253B
+P 8450 2350
+F 0 "MK?" V 8404 2500 50  0000 L CNN
+F 1 "Mounting_Hole_PAD" V 8495 2500 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_2.2mm_M2_Pad" H 8450 2350 50  0001 C CNN
+F 3 "" H 8450 2350 50  0001 C CNN
+	1    8450 2350
+	0    1    1    0   
+$EndComp
+NoConn ~ 8350 1850
+NoConn ~ 8350 2350
+$Comp
+L linear:OPA2340 U?
+U 1 1 5A985354
+P 3800 3350
+F 0 "U?" H 3800 3550 50  0000 L CNN
+F 1 "OPA2340" H 3800 3150 50  0000 L CNN
+F 2 "" H 3800 3350 50  0001 C CNN
+F 3 "" H 3800 3350 50  0001 C CNN
+	1    3800 3350
+	1    0    0    -1  
+$EndComp
+Text Label 5800 3350 0    60   ~ 0
+SIN
+Text Label 5800 2850 0    60   ~ 0
+~SIN
+Text Notes 1900 2400 0    60   ~ 0
+adum5000 \nisolation
+Text Notes 1900 2150 0    60   ~ 0
+LTC1661\ndual DAC
+$Comp
+L adc-dac:MAX5139 U?
+U 1 1 5A98B899
+P 2100 3550
+F 0 "U?" H 2450 4225 50  0000 L CNN
+F 1 "MAX5139" H 2450 4150 50  0000 L CNN
+F 2 "Housings_DFN_QFN:QFN-16-1EP_3x3mm_Pitch0.5mm" H 2450 4050 50  0001 L CIN
+F 3 "" H 2450 3950 50  0001 L CNN
+	1    2100 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:R R?
+U 1 1 5A98C21E
+P 3900 3850
+F 0 "R?" V 3980 3850 50  0000 C CNN
+F 1 "?" V 3900 3850 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 3830 3850 50  0001 C CNN
+F 3 "" H 3900 3850 50  0001 C CNN
+	1    3900 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L device:R R?
+U 1 1 5A98C3B8
+P 3400 4150
+F 0 "R?" V 3480 4150 50  0000 C CNN
+F 1 "?" V 3400 4150 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 3330 4150 50  0001 C CNN
+F 3 "" H 3400 4150 50  0001 C CNN
+	1    3400 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 3350 4200 3850
+Wire Wire Line
+	4200 3850 4050 3850
+Connection ~ 4200 3350
+Wire Wire Line
+	3750 3850 3400 3850
+Wire Wire Line
+	3400 3450 3400 3850
+Wire Wire Line
+	3400 3450 3500 3450
+Connection ~ 3400 3850
+Wire Wire Line
+	3400 4300 3400 4400
+Wire Wire Line
+	3700 3650 3700 4400
+Wire Wire Line
+	3400 4400 3700 4400
+Wire Wire Line
+	2500 3250 3400 3250
+$Comp
+L linear:OPA2340 U?
+U 2 1 5A98D1F1
+P 4800 2850
+F 0 "U?" H 4800 3050 50  0000 L CNN
+F 1 "OPA2340" H 4800 2650 50  0000 L CNN
+F 2 "" H 4800 2850 50  0001 C CNN
+F 3 "" H 4800 2850 50  0001 C CNN
+	2    4800 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:R R?
+U 1 1 5A98D2A3
+P 4950 2450
+F 0 "R?" V 5030 2450 50  0000 C CNN
+F 1 "?" V 4950 2450 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 4880 2450 50  0001 C CNN
+F 3 "" H 4950 2450 50  0001 C CNN
+	1    4950 2450
+	0    1    1    0   
+$EndComp
+$Comp
+L device:R R?
+U 1 1 5A98D34A
+P 4250 2750
+F 0 "R?" V 4330 2750 50  0000 C CNN
+F 1 "?" V 4250 2750 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 4180 2750 50  0001 C CNN
+F 3 "" H 4250 2750 50  0001 C CNN
+	1    4250 2750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5200 2850 5200 2450
+Wire Wire Line
+	5200 2450 5100 2450
+Connection ~ 5200 2850
+Wire Wire Line
+	4800 2450 4450 2450
+Wire Wire Line
+	4450 2450 4450 2750
+Wire Wire Line
+	4400 2750 4450 2750
+Connection ~ 4450 2750
+Wire Wire Line
+	4100 2750 3400 2750
+Wire Wire Line
+	3400 2750 3400 3250
+Connection ~ 3400 3250
+Wire Wire Line
+	4700 4400 4700 3200
+Connection ~ 3700 4400
+Wire Wire Line
+	4700 2550 4700 2300
+Wire Wire Line
+	4700 2300 3700 2300
+Wire Wire Line
+	3700 2300 3700 3050
+$Comp
+L device:R R?
+U 1 1 5A992258
+P 5450 2850
+F 0 "R?" V 5530 2850 50  0000 C CNN
+F 1 "33" V 5450 2850 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 5380 2850 50  0001 C CNN
+F 3 "" H 5450 2850 50  0001 C CNN
+	1    5450 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L device:R R?
+U 1 1 5A99245C
+P 5450 3350
+F 0 "R?" V 5530 3350 50  0000 C CNN
+F 1 "33" V 5450 3350 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 5380 3350 50  0001 C CNN
+F 3 "" H 5450 3350 50  0001 C CNN
+	1    5450 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L device:C C?
+U 1 1 5A9925AD
+P 5700 3100
+F 0 "C?" H 5725 3200 50  0000 L CNN
+F 1 "47n" H 5725 3000 50  0000 L CNN
+F 2 "" H 5738 2950 50  0001 C CNN
+F 3 "" H 5700 3100 50  0001 C CNN
+	1    5700 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 3350 4200 3350
+Wire Wire Line
+	5100 2850 5200 2850
+Wire Wire Line
+	5600 2850 5700 2850
+Wire Wire Line
+	5700 2850 5700 2950
+Wire Wire Line
+	5700 3250 5700 3350
+Wire Wire Line
+	5600 3350 5700 3350
+Connection ~ 5700 2850
+Connection ~ 5700 3350
+Text Notes 5900 3100 0    60   ~ 0
+338 ohm @ 10kHz ??
+Text Notes 5350 3600 0    60   ~ 0
+50kHz LPF
+Wire Wire Line
+	4500 2950 4450 2950
+Wire Wire Line
+	4450 2950 4450 3200
+Wire Wire Line
+	4450 3200 4700 3200
+Connection ~ 4700 3200
+Wire Wire Line
+	3175 1625 3175 1675
+Wire Wire Line
+	3575 1975 3925 1975
+Wire Wire Line
+	3925 1975 4175 1975
+Wire Wire Line
+	3175 1525 3175 1625
+Wire Wire Line
+	3175 1975 3175 2025
+Wire Wire Line
+	4175 1525 4175 1675
+Wire Wire Line
+	4200 3350 5300 3350
+Wire Wire Line
+	3400 3850 3400 4000
+Wire Wire Line
+	5200 2850 5300 2850
+Wire Wire Line
+	4450 2750 4500 2750
+Wire Wire Line
+	3400 3250 3500 3250
+Wire Wire Line
+	3700 4400 4700 4400
+Wire Wire Line
+	5700 2850 5800 2850
+Wire Wire Line
+	5700 3350 5800 3350
+Wire Wire Line
+	4700 3200 4700 3150
+$EndSCHEMATC

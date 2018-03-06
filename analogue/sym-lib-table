@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Encoder_Renishaw_adapter_analogue-rescue)(type Legacy)(uri ${KIPRJMOD}/Encoder_Renishaw_adapter_analogue-rescue.lib)(options "")(descr ""))
+)
